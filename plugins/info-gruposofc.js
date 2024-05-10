@@ -8,20 +8,9 @@ const handler = async (m, {conn, usedPrefix}) => {
 
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `${tradutor.texto1[0]}
-
-${tradutor.texto1[1]}
-${tradutor.texto1[2]}
-
-${tradutor.texto1[3]}
-
-${tradutor.texto1[4]}
-
-${tradutor.texto1[5]}
-
-${tradutor.texto1[6]}`.trim();
+  const text = `hola`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://www.instagram.com/gali_.06/`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2}`,
     'fileLength': 99999999999999,
@@ -30,7 +19,7 @@ ${tradutor.texto1[6]}`.trim();
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+        'mediaUrl': 'https://www.instagram.com/gali_.06/',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': `${tradutor.texto3}`,
