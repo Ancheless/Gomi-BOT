@@ -11,7 +11,7 @@ const handler = (m) => {
 ${tradutor.texto1[0]}
 
 ${tradutor.texto1[1]}
-${Object.keys(msgs).map((v) => '*👉🏻 ' + v).join('*\n*')}*
+${Object.keys(msgs).map((v) => '*💚 ' + v).join('*\n*')}*
 `.trim());
 };
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map((v) => 'list' + v);
